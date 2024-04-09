@@ -1,0 +1,44 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 50px;
+  }
+  table {
+    width: 600px;
+    height: 400;
+    border-spacing: 0;
+    border-collapse: collapse;
+  }
+  
+  td {
+    padding: 5px;
+  }
+  
+  .cabecalho,
+  h1,
+  td {
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 1px;
+  }
+  
+  tr,
+  th,
+  td {
+    border: 2px solid #000000;
+    margin: 0;
+  }
+  
+  th,
+  td {
+    width: 183px;
+    height: 35px;
+  }
+  
+  .cabecalho {
+    background-color: #008000;
+    color: white;
+    text-align: center;
+    font-weight: lighter;
+  }
